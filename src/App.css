@@ -7,15 +7,15 @@
   font-style: normal;
 }
 
+:root {
+  --space-color: #040c24;
+  --off-color: #f9f1f1;
+}
+
 * {
   margin: 0;
   padding: 0;
   font-family: "Fira Code", monospace;
-}
-
-:root {
-  --space-color: #040c24;
-  --off-color: #f9f1f1;
 }
 
 body {

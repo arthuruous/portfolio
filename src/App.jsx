@@ -1,5 +1,8 @@
-import Home from "./pages/Home";
 import { useRoutes } from "react-router-dom";
+
+import Home from "./pages/Home";
+import Navbar from "./components/Navbar";
+import "./App.css";
 
 function App() {
   const routesArray = [
@@ -14,7 +17,10 @@ function App() {
   ];
   let routesElement = useRoutes(routesArray);
   return (
-    <div className='w-full h-screen'>{routesElement}</div>
+    <div className="w-full h-screen">
+      <Navbar />
+      {routesElement}
+    </div>
   );
 }
 
